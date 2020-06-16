@@ -42,7 +42,6 @@ public class mongoTest02 {
         template.updateFirst(query, update, Document.class,"tb_dm");
     }
 
-
     //修改dmkey=T001数据中， 数组dmList中key=100000014的fieldName，definition字段
     private static void test03(){
         //默认会连接到    locahost:27017  的 mytest数据库中
