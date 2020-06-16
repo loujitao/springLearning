@@ -13,7 +13,7 @@ import static java.util.Collections.singletonList;
 // 因此，用于身份验证的一些配置选项不再有效。
 
 //您应该使用特定于mongoclient的选项通过MongoCredential设置凭据，以提供身份验证数据
-@Configuration
+//@Configuration
 public class MongoAuthConfig extends AbstractMongoConfiguration {
 
     @Override

@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.MongoDbFactory;
 import org.springframework.data.mongodb.core.MongoClientFactoryBean;
 import org.springframework.data.mongodb.core.SimpleMongoDbFactory;
 
-@Configuration
+//@Configuration
 public class MongoConfig {
 
     //方式一、注册com.mongodb.MongoClient到spring的IOC容器中
